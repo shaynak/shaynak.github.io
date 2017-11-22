@@ -1,0 +1,161 @@
+@charset "utf-8";
+/* CSS Document */
+
+.parallax {
+	margin-top:-2%;
+	background-image:url("assets/cities.jpg");
+	height:670px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+	margin-top:-2%;
+	background-image:url("assets/wtp1.jpg");
+	height:670px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+	margin-top:-2%;
+	background-image:url("assets/writing.jpg");
+	height:670px;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-text {
+	font-family:Sacramento, cursive;
+	font-size:90px;
+	font-weight:bold;
+	color:white;
+	text-align:center;
+}
+
+.home-text {
+	font-family:Sacramento, cursive;
+	font-size:100px;
+}
+
+.home-links {
+	font-family: Quicksand, sans-serif;
+	font-size:30px;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+}
+
+#home {
+	height:400px;
+	width:60%;
+	position:absolute;
+	top:20%;
+	left:20%;
+	border-radius:30px;
+	background-color:rgba(143,171,170,0.7);
+	text-align:center;
+	vertical-align:bottom;
+}
+
+#about {
+	height:670px;
+	width:100%;
+	background-color:azure;
+}
+
+.about-image {
+	margin-top:8%;
+	margin-left:6%;
+	width:35%;
+	float:left;
+}
+
+img {
+	max-width:100%;
+}
+
+.about-text {
+	font-family:Quicksand, sans-serif;
+	font-size:165%;
+	margin-left:50%;
+	margin-right:3%;
+	width:47%;
+	text-align:center;
+	vertical-align:middle;
+}
+
+#projects {
+	height:670px;
+	width:100%;
+	background-color:darkslategrey;
+}
+
+.imtext {
+	margin-left:4%;
+}
+
+.project-text {
+	font-family:Quicksand, sans-serif;
+	color:white;
+	font-size:24px;
+	width:50%;
+	float:left;
+	text-align:center;
+}
+
+.project-links {
+	margin-left:2%;
+	float:left;
+	font-family:Quicksand, sans-serif;
+	color:azure;
+	font-size:24px;
+	text-align:center;
+	width:52%;
+}
+
+.project-image {
+	margin-top:10%;
+	float:right;
+	width:40%;
+	margin-right:4%;
+}
+
+#jarl {
+	
+}
+
+#p20 {
+	
+}
+
+#agu15 {
+	
+}
+
+#agu16 {
+	
+}
+
+#website {
+	
+}
+
+#project-first {
+	
+}
+
+#hobbies {
+	height:670px;
+	width:100%;
+	background-color:azure;
+	margin-bottom:-2%;
+}
