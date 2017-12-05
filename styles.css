@@ -11,7 +11,7 @@
     background-size: cover;
 }
 
-.parallax2 {
+.parallax2{
 	margin-top:-2%;
 	background-image:url("assets/wtp1.jpg");
 	height:670px;
@@ -123,7 +123,8 @@ img {
 }
 
 .project-image {
-	margin-top:10%;
+	margin-top:8%;
+	vertical-align:middle;
 	float:right;
 	width:40%;
 	margin-right:4%;
@@ -158,4 +159,21 @@ img {
 	width:100%;
 	background-color:azure;
 	margin-bottom:-2%;
+}
+
+.hobby-stuff {
+	height:100%; 
+	width:50%; 
+	font-family:Quicksand; 
+	font-size:24px; 
+	text-align:center;
+	float:right;
+	margin-right:4%;
+}
+
+.hobby-image {
+	margin-top:5%;
+	margin-left:6%;
+	width:38%;
+	float:left;
 }
