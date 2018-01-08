@@ -58,7 +58,7 @@ a {
 	height:400px;
 	width:60%;
 	position:absolute;
-	top:20%;
+	top:135px;
 	left:20%;
 	border-radius:30px;
 	background-color:rgba(143,171,170,0.7);
@@ -85,7 +85,7 @@ img {
 
 .about-text {
 	font-family:Quicksand, sans-serif;
-	font-size:165%;
+	font-size: calc(90% + 1vw);
 	margin-left:50%;
 	margin-right:3%;
 	width:47%;
@@ -140,7 +140,7 @@ img {
 #proj-title {
 	text-align:center;
 	float:right;
-	font-size:130px;
+	font-size:9.7vw;
 	font-family:BenchNine, sans-serif;
 	color:azure;
 	margin-top:250px;
@@ -151,12 +151,14 @@ img {
 #proj-text {
 	float:left;
 	text-align:center;
-	font-size:28px;
+	font-size:calc(85% + 1vw);
 	font-family:Quicksand, sans-serif;
 	color:white;
 	width:42%;
 	margin-left:10%;
-	margin-top:100px;
+	vertical-align:middle;
+	display:table;
+	margin-top:10%;
 }
 
 .button:hover {
@@ -184,32 +186,9 @@ img {
 	height:500px;
 }
 
-#jarl {
-	
-}
-
-#antikythera {
-	
-}
-
-#agu15 {
-	
-}
-
-#agu16 {
-	
-}
-
-#website {
-	
-}
-
-#project-first {
-	
-}
-
 #hobbies {
-	height:670px;
+	min-height:670px;
+	height:100%;
 	width:100%;
 	background-color:azure;
 	margin-bottom:-2%;
@@ -219,14 +198,14 @@ img {
 	height:100%; 
 	width:50%; 
 	font-family:Quicksand; 
-	font-size:23px; 
+	font-size:calc(70% + 1vw); 
 	text-align:center;
 	float:right;
 	margin-right:4%;
 }
 
 .hobby-image {
-	margin-top:5%;
+	margin-top:100px;
 	margin-left:6%;
 	width:38%;
 	float:left;
