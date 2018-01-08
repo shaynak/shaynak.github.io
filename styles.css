@@ -112,6 +112,58 @@ img {
 	text-align:center;
 }
 
+.button {
+	border-radius:60px;
+	height:60px;
+	width:60px;
+	transition:1s;
+	color:darkslategray;
+	text-align:center;
+	background-color:azure;
+	margin-top:305px;
+	position:absolute;
+	font-weight:bold;
+	font-size:50px;
+	user-select:none;
+}
+
+#left {
+	margin-left:2%;
+}
+
+#right {
+	float:right;
+	margin-right:2%;
+	margin-left:92.5%;
+}
+
+#proj-title {
+	text-align:center;
+	float:right;
+	font-size:130px;
+	font-family:BenchNine, sans-serif;
+	color:azure;
+	margin-top:250px;
+	margin-right:11%;
+	width:35%;
+}
+
+#proj-text {
+	float:left;
+	text-align:center;
+	font-size:28px;
+	font-family:Quicksand, sans-serif;
+	color:white;
+	width:42%;
+	margin-left:10%;
+	margin-top:100px;
+}
+
+.button:hover {
+	transition:1s;
+	background-color:lightslategray;
+}
+
 .project-links {
 	margin-left:2%;
 	float:left;
@@ -128,13 +180,15 @@ img {
 	float:right;
 	width:40%;
 	margin-right:4%;
+	width:40%;
+	height:500px;
 }
 
 #jarl {
 	
 }
 
-#p20 {
+#antikythera {
 	
 }
 
@@ -165,7 +219,7 @@ img {
 	height:100%; 
 	width:50%; 
 	font-family:Quicksand; 
-	font-size:24px; 
+	font-size:23px; 
 	text-align:center;
 	float:right;
 	margin-right:4%;

@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <title>Shayna Kothari</title>
 <link href="styles.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Barlow+Condensed|Quicksand|Raleway|Sacramento" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC|Barlow+Condensed|Quicksand|Raleway|Sacramento|BenchNine" rel="stylesheet">
 <script type = "text/javascript" src = "functionality.js"></script>
 </head>
 
@@ -44,9 +44,15 @@
 	</div>
 </div>
 	
-
 <div id = "projects">
-	<div id = "project-first" class="unselected">
+	<a href = "javascript:;"><div id = "left" class = "button">&lt;</div></a>
+	<a href = "javascript:;"><div id = "right" class = "button">&gt;</div></a>
+	<div id = "proj-title">PROJECTS</div>
+	<div id = "proj-text"></div>
+</div>
+<!--
+<div id = "projects">
+	<div id = "project-first" class="unselected" class = "0">
 	<div class = "imtext">
 		<div class = "project-image">
 			<img src = "assets/projects.jpg">
@@ -57,7 +63,7 @@
 		</paragraph>
 	</div>
 	</div>
-	<div id = "jarl" class = "unselected">
+	<div id = "jarl" class = "unselected" class = "1">
 		<div class = "imtext">
 			<div class = "project-image">
 				<img src = "assets/jarl.jpg">
@@ -68,18 +74,18 @@
 			</paragraph>
 		</div>
 	</div>
-	<div id = "website" class = "unselected">
+	<div id = "website" class = "unselected" class = "2">
 		<div class = "imtext">
 			<div class = "project-image">
 				<img src = "assets/website.jpg">
 			</div>
 			<paragraph class = "project-text">
 				<br><br><br><br><br>		
-				This is my personal project: I designed this website from scratch so that I could learn more HTML/CSS. Although I first learned the two while experimenting with web design in eighth grade, I had avoided web development since then because I thought it was really tedious. However, with the development of this website, I learned that I enjoy using HTML, CSS, and jQuery to design websites.
+				This is my personal project: I designed this website from scratch so that I could learn more HTML/CSS. Although I first learned the two while experimenting with web design in eighth grade, I had avoided web development since then because I thought it was really tedious. However, with the development of this website, I learned that I enjoy using HTML, CSS, and jQuery to design websites. I've since started building more websites; I've also built a writing portfolio for myself at <a href = "http://shaynak.github.io/writing" style = "color: azure">shaynak.github.io/writing</a>.
 			</paragraph>
 		</div>
 	</div>
-	<div id = "agu15" class = "unselected">
+	<div id = "agu15" class = "unselected" class = "3">
 		<div class = "imtext">
 			<div class = "project-image">
 				<img src = "assets/agu15.jpg">
@@ -90,7 +96,7 @@
 			</paragraph>
 		</div>
 	</div>
-	<div id = "agu16" class = "unselected">
+	<div id = "agu16" class = "unselected" class = "4">
 		<div class = "imtext">
 			<div class = "project-image">
 				<img src = "assets/agu16.jpg">
@@ -101,27 +107,29 @@
 			</paragraph>
 		</div>
 	</div>
-	<div id = "p20" class = "unselected">
+	<div id = "antikythera" class = "unselected" class = "5">
 		<div class = "imtext">
 			<div class = "project-image">
 				<img src = "assets/paint.png">
 			</div>
 			<paragraph class = "project-text">
 				<br><br><br><br><br>		
-				As an extra credit project for my AP Computer Science class senior year of high school, I designed a paint program using Java Graphics and the drawing interface my textbook provided. Although I spent all of winter break working on it and learning how to use user interaction in Java, it was a fun project that taught me how to use my computer science skills in the real world.
+				I used Javascript to create a bias-checking Google Chrome extension that uses a 5 nearest-neighbors algorithm to determine the general bias of a webpage based on word frequencies. With the prevalence of bias and the presence of partisan "bubbles" on the internet, I decided to do something about it, so I created Antikythera! The extension is published on the Chrome Web Store.
 			</paragraph>
 		</div>
 	</div>
 	<paragraph class = "project-links">
 	<br>
 	<a class = "link" href = "#projects#" data-rel = "project-first" style="color:azure">Overview</a> |
-	<a class = "link" href = "#projects#" data-rel = "website" style="color:azure">Site</a> |
+	<a class = "link" href = "#projects#" data-rel = "website" style="color:azure">Web Design</a> |
 	<a class = "link" href = "#projects#" data-rel = "jarl" style="color:azure">JARL</a> |
-	<a class = "link" href = "#projects#" data-rel = "p20" style="color:azure">p2.0</a> |
+	<a class = "link" href = "#projects#" data-rel = "antikythera" style="color:azure">Antikythera</a> |
 	<a class = "link" href = "#projects#" data-rel = "agu15" style="color:azure">AGU '15</a> |
 	<a class = "link" href = "#projects#" data-rel = "agu16" style="color:azure">AGU '16</a>
 	</paragraph>
 </div>
+
+-->
 
 <div class = "parallax3">
 	<div class = "parallax-text">
@@ -135,7 +143,11 @@
 		<img src = "assets/halfdome.jpeg">
 	</div>
 <div class = "hobby-stuff">
-	<br><br><br>When I'm not building things, you can find me <a href = "http://medium.com/@shaynak" style ="color: darkslategray">writing poetry, short stories, and opinion pieces</a>; reading everything from Neil Gaiman and Ta-Nehisi Coates to <i>The New York Times</i> and <i>Nature</i>; exploring nature; and learning more about the way the world works. On campus, I'm a part of Berkeley Model United Nations and EnableTech, clubs that fuel my desire to make social change through education and creation.<br><br>Some things I'm currently up to:<li>Analyzing data about the confidence gap in engineering for FemTech</li><li>Vice chairing UN-Habitat for Berkeley Model United Nations, a high school Model UN conference held in March every year</li><li>Academic interning for CS61A next semester</li><li>Laser cutting gifts for my friends</li>
+	<br><br><br>When I'm not building things, you can find me <a href = "http://medium.com/@shaynak" style ="color: darkslategray">writing poetry, short stories, and opinion pieces</a>; reading everything from Neil Gaiman and Ta-Nehisi Coates to <i>The New York Times</i> and <i>Nature</i>; exploring nature; and learning more about the way the world works. On campus, I'm a part of Berkeley Model United Nations and EnableTech, clubs that fuel my desire to make social change through education and creation.<br><br>
+	Some things I'm currently up to:
+	<li>Working on a project, <i>Opportunity Through Data</i>, for the <a href = "http://bigideas.berkeley.edu">Big Ideas Competition</a>--my team was selected as finalists for our idea to provide data science education in prisons</li>
+	<li>Vice chairing UN-Habitat for Berkeley Model United Nations, a high school Model UN conference held in March every year</li>
+	<li>Trying to write more (and creating a portfolio for my writing, which you can see <a href = "http://shaynak.github.io/writing">here</a></li>
 </div>
 </div>
 </body>
