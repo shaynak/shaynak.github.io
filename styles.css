@@ -92,6 +92,11 @@ img {
 	width:47%;
 	text-align:center;
 	vertical-align:middle;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-trasform: translateY(-50%);
+	transform: translateY(-50%);
 }
 
 #projects {
@@ -148,8 +153,11 @@ img {
 	width:41%;
 	margin-left:10%;
 	vertical-align:middle;
-	display:table;
-	margin-top:8%;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-trasform: translateY(-50%);
+	transform: translateY(-50%);
 }
 
 .button:hover {
@@ -173,6 +181,7 @@ img {
 	text-align:center;
 	float:right;
 	margin-right:4%;
+	margin-top:5%;
 }
 
 .hobby-image {
