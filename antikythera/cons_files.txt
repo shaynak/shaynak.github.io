@@ -1,1 +1,1 @@
-cons_bloom_tax cons_mediaite_franken cons_natrev_tax cons_weeklystand_franken
+cons_federalist_flynn cons_natrev_flynn cons_bloom_tax cons_mediaite_franken cons_natrev_tax cons_weeklystand_franken cons_natrev_franken
