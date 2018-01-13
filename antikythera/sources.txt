@@ -25,3 +25,9 @@ Conservative: http://www.nationalreview.com/article/454269/michael-flynn-plea-no
 Liberal: https://www.newyorker.com/news/daily-comment/what-michael-flynns-plea-means-to-robert-muellerand-to-donald-trump https://www.thenation.com/article/flynn-pleads-guilty-is-he-singing-on-trump-russia/
 
 Center: http://thehill.com/opinion/judiciary/362813-the-good-the-bad-and-the-ugly-of-the-flynn-indictment https://www.bloomberg.com/view/articles/2017-12-01/how-the-flynn-charges-box-in-trump
+
+----
+
+Unrelated sources (e.g. science; assumed to be unbiased/center):
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5709466/
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5699935/
