@@ -45,7 +45,23 @@ $(document).ready(function() {
 		index += 1;
 		showAtIndex();
 	});
+	$("#bubble-about").hover(function() {
+		$("#bubble-title").html("about");
+		$("#bubble-title").fadeToggle();
+	});
+	$("#bubble-projects").hover(projectClose);
+	$("#bubble-etc").hover(function() {
+		$("#bubble-title").html("etc.");
+		$("#bubble-title").fadeToggle();
+	});
 });
+
+function projectClose() {
+	index = 0;
+	showAtIndex();
+	$("#bubble-title").html("projects");
+	$("#bubble-title").fadeToggle();
+}
 
 function showAtIndex() {
 	if (index == projs.length) {
