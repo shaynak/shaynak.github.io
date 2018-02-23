@@ -38,6 +38,7 @@ path {
 }
 
 .modal-content {
+	overflow:auto;
     font-family:"Raleway", sans-serif;
 	position: absolute; /* Stay in place */
 	display: none; /* Hidden by default */
@@ -114,12 +115,21 @@ path {
 	background-color:#437313;
 	margin:auto;
 }
+
 .bubbles:hover {
 	background-color:white;
-	transition:1s;
 	cursor:pointer;
 }
-
+#bubble-title {
+	color:azure;
+	margin-top:2vh;
+	font-family:'Raleway', sans-serif;
+	transition:1s;
+	display:none;
+	width:20vh;
+	margin-left:calc((100% - 20vh)/2);
+	text-align:center;
+}
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -183,9 +193,8 @@ path {
 	color:#201858;
 	width:41%;
 	margin-left:10%;
-	vertical-align:middle;
 	position: relative;
-	margin-top:10vh;
+	margin-top:calc(2vh + 4vw);
 }
 
 .button:hover {
@@ -202,135 +211,30 @@ a {
 a:hover {
 	color:azure;
 	transition:1s;
+} /*
+.tooltip {
+	position:relative;
+	display:inline-block;
 }
-
-/* CSS Document */
-/*
-.parallax {
-	margin-top:-2%;
-	background-image:url("assets/cities.jpg");
-	height:670px;
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax2{
-	margin-top:-2%;
-	background-image:url("assets/wtp1.jpg");
-	height:670px;
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax3 {
-	margin-top:-2%;
-	background-image:url("assets/writing.png");
-	height:670px;
-	background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax-text {
-	font-family:Sacramento, cursive;
-	font-size:90px;
-	font-weight:bold;
-	color:white;
+.tooltip .tooltip-text {
+	visibility:hidden;
+	background-color:rgba(0, 70, 70, 0.4);
+	color:rgb(160, 180, 200);
 	text-align:center;
-}
-
-.home-text {
-	font-family:Sacramento, cursive;
-	font-size:100px;
-}
-
-.home-links {
-	font-family: Quicksand, sans-serif;
-	font-size:30px;
-}
-
-a {
-	text-decoration:none;
-	color:black;
-}
-
-#home {
-	height:400px;
-	width:60%;
+	padding:5px;
+	border-radius:3px;
+	width:60px;
+	border:1px rgb(100, 100, 100);
 	position:absolute;
-	top:135px;
-	left:20%;
-	border-radius:30px;
-	background-color:rgba(143,171,170,0.7);
-	text-align:center;
-	vertical-align:bottom;
+	z-index:1;
+	font-family:'Raleway', sans-serif;
+	top: 100%;
+    left: 50%; 
+    margin-left: -30px;
+    transition:2s;
+
 }
-
-#about {
-	height:670px;
-	width:100%;
-	background-color:azure;
-	margin-top:-2.7%;
-}
-
-.about-image {
-	margin-top: calc(335px - 19vw);
-	margin-left:4vw;
-	width:35vw;
-	float:left;
-}
-
-img {
-	max-width:100%;
-}
-
-.about-text {
-	font-family:Quicksand, sans-serif;
-	font-size: calc(90% + 1vw);
-	margin-left:50%;
-	margin-right:3%;
-	width:47%;
-	text-align:center;
-	vertical-align:middle;
-	position: relative;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	-moz-trasform: translateY(-50%);
-	transform: translateY(-50%);
-}
-
-
-#hobbies {
-	min-height:670px;
-	height:100%;
-	width:100%;
-	background-color:azure;
-	margin-bottom:-2%;
-}
-
-.hobby-stuff {
-	height:100%; 
-	width:50%; 
-	font-family:Quicksand; 
-	font-size:calc(65% + 1vw); 
-	text-align:center;
-	float:right;
-	margin-right:4%;
-	margin-top:5%;
-}
-
-.hobby-image {
-	margin-top:calc(335px - 20vw);
-	margin-left:3vw;
-	width:35vw;
-	float:left;
-}
-
-.unselect {
-	user-select:none;
+.tooltip:hover .tooltip-text {
+	visibility:visible;
+	transition:2s;
 } */
