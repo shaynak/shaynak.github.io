@@ -37,7 +37,6 @@ $(document).ready(function() {
 });
 
 function appendElem(x, y, rand, color, elem) {
-	console.log(100*(x/$('body').width()) + "vw");
 	var left = 100*(x/$('body').width()) + "vw";
 	var top = 100*(y/$('body').height()) + "vh";
 	$(elem).append('<div class = "teenybubs" style = "position:absolute; opacity:0.5; background-color:' + color + '; top:' + top + '; margin-left:' + left + '; width:' + rand + 'px; height: ' + 
