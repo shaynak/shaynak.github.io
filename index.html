@@ -9,39 +9,49 @@
 	<script type = "text/javascript" src = "functionality.js"></script>
 </head>
 <body>
-	<div id = "home">
-		<div class = "titletext"> 
-			<a id = "name">shayna kothari</a>
-		</div>
+	<div id = "index" class = "part">
+	<div class = "hometext">
+		hey! i'm shayna
+		<div class = "links">
+		<a href = "#about">about</a> | <a href = "#experience">endeavors</a>
 	</div>
-	<div id = "content">
-		<div class = "sidebar-coral"></div>
-		<div class = "sidebar-purple"></div>
-		<div class = "sidebar-coral" style = "margin-left:5vw"></div>
-		<div class = "web-content abt" id = "about">
-			<span style = "font-size:60px; color:purple"><br>about me<br></span>
-			<p style = "font-size:30px">- shayna<br>- second-year student @ uc berkeley engineering<br>- passionate about using technology to make a difference in the world</p>
-			<p style = "font-size:24px">I'm interested in the intersections between disciplines, because rarely are the biggest problems in the world limited to a single subject area. I want to work to combine my many passions--whether in engineering, education, health, the environment, politics, or otherwise--into one.<br><br>Currently: working on the implementation of <a href = "http://opportunity-through-data.github.io" style = "color:coral">Opportunity Through Data</a>, a project that plans to bring data science education to women's prisons. Our project recently received $6000 in funding through the Big Ideas competition, placing in the top two in our category.</p>
+	</div>
+	</div>
+	<div id = "about" class = "part">
+		<div class = "content">
+			<span  id = "abttitle" class = "sectiontext nobubbles" style = "color:lightgray; margin-top:5vh">about<br></span>
+			<p id = "abttext" class = "larger-text nobubbles">hello! I'm a second-year student at UC Berkeley studying computer science & human rights; I'm passionate about using technology to make a difference in the world.</p>
+			<div id = "icons" class = "nobubbles"><a href = "http://github.com/shaynak"><img src = "assets/gh.png" class = "icon nobubbles" style="padding-left:0"></a>
+				<a href = "http://linkedin.com/in/shaynak"><img src = "assets/linkedin.png" class = "icon nobubbles"></a>
+				<a href ="assets/resume.pdf"><img src = "assets/doc.png" class = "icon nobubbles"></a></div>	
 		</div>
-		<div class = "web-content proj" id = "projects">
-			<span style = "font-size:60px; color:purple"><br>projects<br></span>
-			<p><span style = "font-size:30px">I like to make new things.</span><span style = "font-size:18px"><br><br>(this page is currently under construction, but <br> feel free to click on the provided links to learn <br> a little bit more about what I'm working on!)</span></p>
-			<p style = "font-size:24px"><span style = "font-size:28px"><a href = "http://jacobsinstitute.berkeley.edu/news/introducing-inaugural-innovation-catalysts-cohort/" id = "jarl">JARL</a></span> a simple robotic arm for people in wheelchairs with limited hand mobility</p>
-			<p style = "font-size:24px"><span style = "font-size:28px"><a href = "http://opportunity-through-data.github.io" id = "otd">Opportunity Through Data</a></span> a program to reduce recidivism in women's prisons by providing inmates with data science education</p>
-			<p style = "font-size:24px"><span style = "font-size:28px"><a href = "http://shaynak.github.io/writing" id = "wd">Web Design</a></span> websites I've built for fun</p>
+
+	</div>
+	<div id = "experience" class = "part">
+		<div class = "content">
+			<span class = "sectiontext nobubbles" style="margin-top:10vh">current endeavors<br></span>
+			<span style = "font-size:calc(1.2vh + 1.2vw); padding-top:2vh;"><a href = "assets/resume.pdf" class = "nobubbles">[see my resume for more information]</a></span>
+			<span class = "nobubbles">
+			<ul style = "font-size:calc(1.5vh + 1.5vw);" class = "nobubbles">
+				<li class = "nobubbles">incoming software engineering intern @ <a href = "http://khanacademy.org" class = "nobubbles">khan academy</a>
+					<span class = "smaller-text nobubbles"><br>increasing access to a world-class education</span>
+				</li>
+				<li class = "nobubbles"> course tutor @ uc berkeley eecs
+					<span class = "smaller-text nobubbles"><br> tutor for <a href = "http://cs61a.org" class = "nobubbles">cs61a</a>, an introductory computer science course taught in python, scheme, and sql. teaches small-group sections & contributes to course software.</span>
+				</li>
+				<li class = "nobubbles"> director of technology @ <a href = "http://opportunity-through-data.github.io" class = "nobubbles">opportunity through data</a>
+					<span class = "smaller-text nobubbles"><br> providing access to data science education to women in prison; a <a href = "http://bigideas.berkeley.edu" class = "nobubbles">big ideas competition</a> funded venture.</span>
+				</li>
+				<li class = "nobubbles"> team lead @ just another robotic limb [jarl]
+					<span class = "smaller-text nobubbles" class = "nobubbles"><br> building a robotic arm for people in wheelchairs with limited hand mobility; a <a href = "http://jacobsinstitute.berkeley.edu/news/introducing-fall-2018-innovation-catalysts-grant-winners/" class = "nobubbles">jacobs institute for design innovation</a> funded venture.</span>
+				</li>
+				<li class = "nobubbles"> vice chair & technology staff @ <a href = "http://bmun.org" class = "nobubbles">berkeley model united nations</a>
+					<span class = "smaller-text nobubbles"><br> educating students about international relations by facilitating the oldest high school model united nations conference in the world & building technology that makes that possible.</span>
+				</li>
+			</ul>
+			</span>
 		</div>
-		<div class = "bottom-link abt"><a href = "#projects" id = "proj-link">• projects •</a></div>
-		<div class = "bottom-link proj"><a href = "#about" id = "abt-link">• about •</a></div>
-		<br>
-		<div class = "iconic">
-			<a href = "http://github.com/shaynak"><img src = "assets/gh.png" class = "icon"></a>
-		</div>
-		<div class = "iconic" style = "margin-top:20vh">
-			<a href = "http://linkedin.com/in/shaynak"><img src = "assets/linkedin.png" class = "icon"></a>
-		</div>
-		<div class = "iconic" style = "margin-top:40vh">
-			<a href ="assets/resume.pdf"><img src = "assets/doc.png" class = "icon"></a>
-		</div>
+		
 	</div>
 </body>
 </html>
