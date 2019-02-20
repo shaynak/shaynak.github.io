@@ -1,45 +1,30 @@
-var color = "coral"
+var color = "teal";
 var rand = getRandomInt(5, 20);
 $(document).ready(function() {
-	var link = window.location.href;
-	if (link.split("#").length < 2) {
-		$("#name").click(function() {
-			$("#home").fadeOut(1000);
-			$("#content").fadeIn(1000);
-		});
-	} else {
-		$("#home").toggle();
-		$("#content").toggle();
-		if (link.split("#")[1] == 'projects') {
-			$(".proj").toggle();
-			$(".abt").toggle();
-		}
-	}
-	$(".bottom-link").click(function() {
-		$(".proj").toggle();
-		$(".abt").toggle();
-	});
 	$(document).mousemove(function(event) {
 		var x = event.pageX;
 		var y = event.pageY;
-		if (document.elementFromPoint(x, y) === document.getElementById("home")) {
-			appendElem(x, y, rand, color, "#home");
-		} else if (document.elementFromPoint(x, y) === document.getElementById("content")) {
-			appendElem(x, y, rand, color, "#content");
+		console.log(document.elementFromPoint(x, y));
+		elem = document.elementFromPoint(x - window.pageXOffset, y - window.pageYOffset);
+		if (!elem || !elem.classList.contains("nobubbles")) {
+			appendElem(x, y, rand, color, "body");
 		}
-		if (color == "coral") {
-			color = "purple";
+		if (elem) {
+				console.log(elem.classList + " " + elem.classList.contains("nobubbles"));
+			}
+		if (color == "darkgray") {
+			color = "teal";
 		} else {
-			color = "coral";
+			color = "darkgray";
 		}
 		rand = getRandomInt(5, 20);
 	});
 });
 
 function appendElem(x, y, rand, color, elem) {
-	var left = 100*(x/$('body').width()) + "vw";
-	var top = 100*(y/$('body').height()) + "vh";
-	$(elem).append('<div class = "teenybubs" style = "position:absolute; opacity:0.5; background-color:' + color + '; top:' + top + '; margin-left:' + left + '; width:' + rand + 'px; height: ' + 
+	var left = 100*(x/window.innerWidth) + "vw";
+	var top = 100*(y/window.innerHeight) + "vh";
+	$(elem).append('<div class = "teenybubs" style = "position:absolute; opacity:0.2; background-color:' + color + '; top:' + top + '; margin-left:' + left + '; width:' + rand + 'px; height: ' + 
 		rand + 'px; border-radius:' + rand + 'px"></div>');
 }
 
