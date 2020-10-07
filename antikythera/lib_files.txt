@@ -1,1 +1,0 @@
-lib_newyorker_flynn lib_nation_flynn lib_slate_tax lib_wpost_franken lib_nymag_tax lib_vox_franken lib_nymag_franken
