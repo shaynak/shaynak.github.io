@@ -4,20 +4,27 @@ $(document).ready(function() {
 	$(document).mousemove(function(event) {
 		var x = event.pageX;
 		var y = event.pageY;
-		console.log(document.elementFromPoint(x, y));
 		elem = document.elementFromPoint(x - window.pageXOffset, y - window.pageYOffset);
-		if (!elem || !elem.classList.contains("nobubbles")) {
+		console.log(elem.tagName);
+		if (elem.tagName == "HTML") {
 			appendElem(x, y, rand, color, "body");
 		}
-		if (elem) {
-				console.log(elem.classList + " " + elem.classList.contains("nobubbles"));
-			}
-		if (color == "darkgray") {
-			color = "teal";
+		if (color == "rgba(211, 206, 235)") {
+			color = "rgba(203, 245, 231)";
 		} else {
-			color = "darkgray";
+			color = "rgba(211, 206, 235)";
 		}
 		rand = getRandomInt(5, 20);
+	});
+
+	$(".top-link").click(function(event) {
+		const elem = event.target;
+		$(".top-link-active").removeClass("top-link-active");
+		$(elem).addClass("top-link-active");
+		box_elem = "#" + elem.innerText
+		const box_sections = ["#about", "#experience", "#teaching"];
+		box_sections.forEach((section) => $(section).hide());
+		$(box_elem).show();
 	});
 });
 
